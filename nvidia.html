@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header NVIDIA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo"> <img src="imagenes/logonvidia.jpg" alt="NVIDIA"> </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="diseño-simulacion">Diseño y simulación</a></li>
+                    <li><a href="#">Sectores</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Soluciones</a></li>
+                    <li><a href="#">Software</a></li>
+                    <li><a href="#">Tecnologías</a></li>
+                    <li><a href="#">Tienda</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icons">
+                <a href="#">Tienda</a>
+                <a href="#">Controladores</a>
+                <a href="#">Soporte</a>
+                
+            </div>
+        </div>
+        <div class="sub-header">
+            <nav>
+                <ul>
+                    <li><a href="#">Plataforma</a></li>
+                    <li><a href="#">Soluciones</a></li>
+                    <li><a href="#">Sectores</a></li>
+                    <li><a href="#">Características</a></li>
+                    <li><a href="#">Software</a></li>
+                    <li><a href="#">Hardware</a></li>
+                    <li><a href="#">Nube</a></li>
+                </ul>
+            </nav>
+            <button class="start-btn">Empezar</button>
+        </div>
+    </header>
+    <div class="hero-container">
+        <img class="hero-image" src="imagenes/we.png" alt="Imagen grande">
+        <div class="hero-text">
+            <h1 class="title">Visualización profesional con tecnología de NVIDIA RTX</h1>
+            <p class="subtitle">Descubre el futuro de la computación visual para profesionales.</p>
+            <button class="cta-btn">Ver ahora</button>
+        </div>
+    </div>
+
+    <div class="additional-text">
+        <p>NVIDIA® RTX™ es la plataforma de computación profesional 
+            visual más utilizada del mundo, pues ofrece desde un diseño 
+            industrial y arquitectónico sorprendente hasta efectos especiales 
+            avanzados y visualización científica compleja. Con la confianza de 
+            millones de usuarios creativos y técnicos que las usan para acelerar 
+            sus flujos de trabajo, las soluciones profesionales de NVIDIA RTX y
+             NVIDIA Quadro® convierten los desafíos más 
+            complejos de la actualidad en éxitos de negocio del mañana.</p>
+    </div>
+
+    <div class="new-section">
+        <h2 class="section-title">La plataforma de computación visual acelerada</h2>
+        <p class="section-paragraph">Las soluciones profesionales 
+            de NVIDIA RTX y NVIDIA Quadro permiten a los diseñadores,
+            artistas, científicos e investigadores explorar sus ideas
+            más atrevidas más rápido que nunca. En los últimos 20 años,
+            NVIDIA ha desarrollado todo un ecosistema adaptado para dar
+            a los profesionales exactamente lo que necesitan para
+            hacer su mejor trabajo: una culminación de hardware potente,
+            software avanzado y herramientas,
+            plataformas intersectoriales y una vasta red de aplicaciones
+            de terceros.</p>
+        
+        <a href="https://www.nvidia.com/es-es/" class="cta-link">Descubre más sobre NVIDIA RTX y Quadro</a>
+    
+        <!-- Imagen debajo del enlace -->
+        <img src="imagenes/folleto.jpg" alt="Tecnología NVIDIA" class="cta-image">
+    </div>
+    
+    <div class="video-container">
+        <div class="video-wrapper">
+            <video class="cta-video" autoplay loop muted onended="videoEnded()">
+                <source src="imagenes/video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
+    
+    <script>
+        function videoEnded() {
+            const video = document.querySelector('.cta-video');
+            video.play(); // Reproduce el video nuevamente
+        }
+    </script>
+    
+
+
+    <div class="additional-info">
+        <h2 class="additional-title">Impulsamos la innovación en todos los sectores</h2>
+        <p class="additional-text">
+            La plataforma NVIDIA RTX acerca los últimos avances tecnológicos a millones de profesionales creativos y técnicos para que puedan trabajar más rápido, de forma más inteligente y mejor.
+
+        </p>
+    </div>
+
+    <div class="image-row">
+        <div class="image-container">
+            <a href="https://resources.nvidia.com/en-us-workstation/proviz-rtx-a4500-aeco?lx=57iDsa&ncid=no-ncid" target="_blank">
+                <img src="imagenes/vvv.jpg" alt="Imagen 1">
+            </a>
+            <p><strong>Arquitectura, ingeniería construcción y  operaciones</strong></p>
+
+        </div>
+        <div class="image-container central">
+            <a href="https://resources.nvidia.com/en-us-workstation/manufacturing-product-design?lx=57iDsa&ncid=no-ncid" target="_blank">
+                <img src="imagenes/xxx.jpg" alt="Imagen 2">
+            </a>
+            <p><strong>Fabricacion y desarrollo de producto</strong></p>
+        </div>
+        <div class="image-container">
+            <a href="https://resources.nvidia.com/en-us-workstation/rtx-media-and-entertainment?lx=57iDsa&ncid=no-ncid" target="_blank">
+                <img src="imagenes/zzz.jpg" alt="Imagen 3">
+            </a>
+            <p><strong>Medios y entretenimiento</strong></p>
+        </div>
+    </div>
+
+    <div class="additional-content">
+        <h2><strong> acelerado por GPU</strong></h2>
+        <img src="imagenes/arrebate.jpg" alt="Nueva imagen">
+    </div>
+
+    <div class="additional-content-bottom">
+        <h3>Introducción a las soluciones NVIDIA RTX y Quadro</h3>
+        <p>Este es el texto del subtítulo que proporciona más contexto sobre la sección anterior.</p>
+        <div class="buttons-container">
+            <a href="#" class="button">Ver partners</a>
+            <a href="#" class="button">Hablar con el especilista</a>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Productos</h4>
+                <ul>
+                    <li><a href="#">Gráficas GeForce</a></li>
+                    <li><a href="#">NVIDIA RTX</a></li>
+                    <li><a href="#">Notebooks</a></li>
+                    <li><a href="#">Estaciones de trabajo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Recursos</h4>
+                <ul>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Descargas</a></li>
+                    <li><a href="#">Documentación</a></li>
+                    <li><a href="#">Desarrolladores</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Compañía</h4>
+                <ul>
+                    <li><a href="#">Acerca de NVIDIA</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Inversionistas</a></li>
+                    <li><a href="#">Carreras</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NVIDIA Corporation. Todos los derechos reservados.</p>
+            <p><a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
